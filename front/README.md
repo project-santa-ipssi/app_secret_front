@@ -1,16 +1,11 @@
-# Portail DaD - FrontEnd Source Code
+# Santa Secret Front - FrontEnd Source Code
 
 ## Description
-Santa Secret Font
+Santa Secret Front
 
-## Server config
-    - Hostname: BILIAPA12.dom101.intres
-    - Os: Redhat 7
-    - Web Server: Apache Server
-    - Listening port: 80 (default port for http)
-    - Config location of Apache: /etc/httpd/conf/httpd.conf
-    - Path to dist directory: /var/www/
-    - Check service health: systemctl status httpd
+## url
+127.0.0.1:4200
+    
 
 ## Install node
     $ install at least node v10.10 from https://nodejs.org/en/
