@@ -7,3 +7,4 @@ import { Component, ChangeDetectionStrategy } from '@angular/core';
   templateUrl: './meteo-project.component.html',
 })
 export class MeteoProjectComponent {}
+

@@ -15,7 +15,7 @@ import { NgxProfileComponent } from './@theme/components/profile/profile.compone
 const routes: Routes = [
   {
     path: 'pages',
-    // canActivate: [AuthGuard],
+    canActivate: [AuthGuard],
     loadChildren: 'app/pages/pages.module#PagesModule'
   },
   {

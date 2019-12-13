@@ -10,7 +10,7 @@
 
   .socials {
     font-size: 2rem;
-
+    text-align:center;
     a {
       padding: 0.4rem;
       color: nb-theme(text-hint-color);
@@ -20,6 +20,9 @@
         color: nb-theme(text-basic-color);
       }
     }
+  }
+  .footer-container {
+    text-align: center;
   }
 
   @include media-breakpoint-down(is) {
