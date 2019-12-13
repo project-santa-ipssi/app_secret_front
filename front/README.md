@@ -18,28 +18,12 @@ Santa Secret Font
 
 ## Set Up development environment (windows 10)
 
-    $ git clone https://B0023696@bitbucket-groupe.hpr.f.bbg/scm/homologationdata/portail_frontend.git
-    $ cd portail_frontend
+    $ git clone https://github.com/project-santa-ipssi/app_secret_front.git
+    $ cd front
     $ npm install  (generate node_modules folder)
     $ npm serve 
 
-## Add Corporate Registry
 
-    $ npm set registry http://picnex000.dom101.mapres:8081/repository/g-npm-proxy/
-
-## Unit Tests
-
-    $ npm run lint (with tslint)
-    $ npm run lint:fix (fix linting errors)    
-    $ npm run test
-    $ npm run test:coverage
-    $ npm run e2e
-    
-## Documentation of source code
-
-    $ npm run docs:serve (serve locally doc code)
-    $ npm run docs (generate dist folder for compodoc)
-    $ npm run conventional-changelog (generate release note file for Release)
 
 ## Generate dist folder with webpack (test environment)
 
