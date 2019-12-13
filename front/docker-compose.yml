@@ -1,0 +1,12 @@
+version: '3.4'
+services:
+  nginx: 
+    image: nginx:latest
+    container_name: fow_nginx
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf
+      - ./nginx/reservation.conf:/etc/nginx/reservation.conf
+    ports:
+      - "10080:80"
+      - "10443:443" 
+      - "81:81"
