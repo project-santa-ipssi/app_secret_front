@@ -1,7 +1,7 @@
 # Portail DaD - FrontEnd Source Code
 
 ## Description
-Portail DaD web application for supervising DAD activities
+Santa Secret Font
 
 ## Server config
     - Hostname: BILIAPA12.dom101.intres
